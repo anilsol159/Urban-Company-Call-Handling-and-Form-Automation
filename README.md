@@ -44,6 +44,22 @@ Ensure **Chrome WebDriver** is installed and matches your Chrome version.
 
 ---
 
+## 🎯 Usage  
+- The script opens the **Urban Company lead portal** and a **Google Sheet** in separate tabs.  
+- It sequentially processes each lead.  
+- **Automates call connection and form filling** if required.  
+- Waits for user input:  
+  - Press **SPACE** to proceed after a call ends.  
+  - Press **ALT** to close the active tab and move to the next lead.  
+
+---
+
+## ✅ Benefits  
+- **Time Efficiency**: Automates repetitive tasks, reducing manual effort.  
+- **Error Reduction**: Minimizes human errors in lead status updates.  
+- **Productivity Boost**: Allows users to manage more leads efficiently.  
+
+
 ### 3️⃣ Configure Chrome Profile  
 Update the following in the script to match your Chrome profile path:  
 ```python
