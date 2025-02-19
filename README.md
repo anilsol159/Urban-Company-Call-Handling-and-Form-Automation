@@ -36,6 +36,7 @@ This automation significantly **reduces manual effort** in managing and updating
 Make sure you have Python installed, then install the required libraries:  
 ```bash
 pip install selenium keyboard
+```
 
 ### 2️⃣ Download Chrome WebDriver  
 Ensure **Chrome WebDriver** is installed and matches your Chrome version.  
@@ -50,7 +51,7 @@ Update the following in the script to match your Chrome profile path:
 ```python
 options.add_argument("--user-data-dir=C:\\Users\\YourUsername\\AppData\\Local\\Google\\Chrome\\User Data")
 options.add_argument("--profile-directory=YourProfile")
-
+```
 
 ## 🎯 Usage  
 - The script opens the **Urban Company lead portal** and a **Google Sheet** in separate tabs.  
