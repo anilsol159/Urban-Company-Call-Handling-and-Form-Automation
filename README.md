@@ -42,7 +42,15 @@ Ensure **Chrome WebDriver** is installed and matches your Chrome version.
 - Download from: [ChromeDriver](https://sites.google.com/chromium.org/driver/)  
 - Place `chromedriver.exe` in the project directory.  
 
----
+--- 
+
+
+### 3️⃣ Configure Chrome Profile  
+Update the following in the script to match your Chrome profile path:  
+```python
+options.add_argument("--user-data-dir=C:\\Users\\YourUsername\\AppData\\Local\\Google\\Chrome\\User Data")
+options.add_argument("--profile-directory=YourProfile")
+
 
 ## 🎯 Usage  
 - The script opens the **Urban Company lead portal** and a **Google Sheet** in separate tabs.  
@@ -57,11 +65,4 @@ Ensure **Chrome WebDriver** is installed and matches your Chrome version.
 ## ✅ Benefits  
 - **Time Efficiency**: Automates repetitive tasks, reducing manual effort.  
 - **Error Reduction**: Minimizes human errors in lead status updates.  
-- **Productivity Boost**: Allows users to manage more leads efficiently.  
-
-
-### 3️⃣ Configure Chrome Profile  
-Update the following in the script to match your Chrome profile path:  
-```python
-options.add_argument("--user-data-dir=C:\\Users\\YourUsername\\AppData\\Local\\Google\\Chrome\\User Data")
-options.add_argument("--profile-directory=YourProfile")
+- **Productivity Boost**: Allows users to manage more leads efficiently. 
